@@ -186,8 +186,14 @@
   .ml-0 {
     margin-left: calc(var(--spacing) * 0);
   }
+  .block {
+    display: block;
+  }
   .flex {
     display: flex;
+  }
+  .hidden {
+    display: none;
   }
   .table {
     display: table;
@@ -212,6 +218,18 @@
   }
   .w-\[90\%\] {
     width: 90%;
+  }
+  .w-\[91\%\] {
+    width: 91%;
+  }
+  .w-\[94\%\] {
+    width: 94%;
+  }
+  .w-\[97\%\] {
+    width: 97%;
+  }
+  .w-\[99\%\] {
+    width: 99%;
   }
   .w-full {
     width: 100%;
@@ -277,8 +295,17 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .bg-\[\#1D1D1D\] {
+    background-color: #1D1D1D;
+  }
+  .bg-\[\#2e2e2e\] {
+    background-color: #2e2e2e;
+  }
   .bg-\[\#673A44\] {
     background-color: #673A44;
+  }
+  .bg-\[\#222121\] {
+    background-color: #222121;
   }
   .bg-\[\#843546\] {
     background-color: #843546;
@@ -288,6 +315,9 @@
   }
   .bg-\[\#f2f2f2\] {
     background-color: #f2f2f2;
+  }
+  .bg-\[black\] {
+    background-color: black;
   }
   .p-1 {
     padding: calc(var(--spacing) * 1);
@@ -420,6 +450,16 @@
       }
     }
   }
+  .md\:block {
+    @media (width >= 48rem) {
+      display: block;
+    }
+  }
+  .md\:hidden {
+    @media (width >= 48rem) {
+      display: none;
+    }
+  }
   .md\:w-\[30\%\] {
     @media (width >= 48rem) {
       width: 30%;
@@ -453,6 +493,11 @@
   .md\:w-\[90\%\] {
     @media (width >= 48rem) {
       width: 90%;
+    }
+  }
+  .md\:w-\[full\] {
+    @media (width >= 48rem) {
+      width: full;
     }
   }
   .md\:w-full {
@@ -531,6 +576,16 @@
       margin-left: calc(var(--spacing) * 16);
     }
   }
+  .lg\:block {
+    @media (width >= 64rem) {
+      display: block;
+    }
+  }
+  .lg\:hidden {
+    @media (width >= 64rem) {
+      display: none;
+    }
+  }
   .lg\:w-\[0\%\] {
     @media (width >= 64rem) {
       width: 0%;
@@ -604,6 +659,11 @@
   .lg\:justify-between {
     @media (width >= 64rem) {
       justify-content: space-between;
+    }
+  }
+  .lg\:bg-\[\#1D1D1D\] {
+    @media (width >= 64rem) {
+      background-color: #1D1D1D;
     }
   }
   .lg\:p-13 {
