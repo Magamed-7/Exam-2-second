@@ -345,6 +345,9 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
+  .text-\[2\] {
+    color: 2;
+  }
   .text-\[gray\] {
     color: gray;
   }
@@ -504,6 +507,11 @@
   .lg\:w-\[30\] {
     @media (width >= 64rem) {
       width: 30;
+    }
+  }
+  .lg\:w-\[35\%\] {
+    @media (width >= 64rem) {
+      width: 35%;
     }
   }
   .lg\:w-\[40\%\] {
