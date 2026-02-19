@@ -540,6 +540,11 @@
       font-size: 18px;
     }
   }
+  .md\:text-\[30px\] {
+    @media (width >= 48rem) {
+      font-size: 30px;
+    }
+  }
   .md\:text-\[36px\] {
     @media (width >= 48rem) {
       font-size: 36px;
